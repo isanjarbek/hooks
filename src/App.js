@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CustomHook1 from "./components/useToggle";
+// import Hook1 from "./components/useState";
+// import Hook2 from "./components/useEffect";
+// import Hook3 from "./components/useRef";
+// import Hook4 from "./components/useReducer";
+// import Hook5 from "./components/useMemo/index";
+// import Hook6 from "./components/useCallback/index";
+// import Hook7 from "./components/useContext";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Hook1 /> */}
+      {/* <Hook2 /> */}
+      {/* <Hook3 /> */}
+      {/* <Hook4 /> */}
+      {/* <Hook5 /> */}
+      {/* <Hook6 /> */}
+      {/* <Hook7 /> */}
+      <CustomHook1 />
     </div>
   );
 }
