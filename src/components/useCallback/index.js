@@ -4,9 +4,9 @@ const Hook6 = () => {
   const message = "Hello";
   const [counter, setCounter] = useState(0);
 
-  //   const greeting = (text) => {
-  //     console.log(text);
-  //   };
+    // const greeting = (text) => {
+    //   console.log(text);
+    // };
 
   const greeting = useCallback((text) => {
     console.log(text);
